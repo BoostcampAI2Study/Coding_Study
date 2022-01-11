@@ -8,6 +8,9 @@ front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어�
 back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.
 '''
 
+
+import sys
+
 class Queue():
     def __init__(self):
         self.queue = list()
@@ -39,8 +42,12 @@ class Queue():
         else:
             return -1
 
+# 내장 함수 input()은 여러줄 입력받을 때 시간초과 발생할 수 있음
+# https://velog.io/@yeseolee/Python-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%A0%A5-%EC%A0%95%EB%A6%ACsys.stdin.readline
+input = sys.stdin.readline
 count = int(input())
-commands = [input() for _ in range(count)]
+commands = [input().strip() for _ in range(count)]
+
 q = Queue()
 cmd_dir = {
     'push': q.push,
@@ -51,8 +58,7 @@ cmd_dir = {
     'back': q.back
 }
 
-for c in commands:
-    
+for c in commands:    
     if c.startswith('push'):
         c, num = c.split()
         cmd_dir[c](num)
