@@ -17,14 +17,20 @@ class Queue:
         else:
             print(1)
     def front(self):
-        print(self.q[0])
+        if self.q:
+            print(self.q[0])
+        else:
+            print(-1)
     def back(self):
-        print(self.q[-1])
+        if self.q:
+            print(self.q[-1])
+        else:
+            print(-1)
  
 if __name__ == '__main__':
     q = Queue()
     N = int(input())
-    cmds = [input().split() for _ in range(N)]
+    cmds = [list(input().split()) for _ in range(N)]
     for cmd in cmds:
         if cmd[0] == 'push':
             q.push(int(cmd[1]))
