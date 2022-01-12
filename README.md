@@ -26,6 +26,12 @@
     - 함께 알고리즘 overview하고 풀이 함께 진행
 4. 문제 접근 방법에 대해 정리해보기
 
+**_자율_**
+
+1. 조금 더 잘 하는 분들이 알고리즘 설명 및 문제 접근 방법 알려주기
+-> 추천인: YG, BSW, JBJ...
+2. 짝꿍 추천하기 -> 색다롭게 풀었다 싶으면 추천 (악용될 우려가?)
+
 ### Commit Rule
 - ADD: 첫 commit
 - UPDATE: 수정 commit
@@ -33,29 +39,90 @@
 ## 문제
 |날짜|문제|알고리즘|난이도|
 |---|---|-------|-|
-|220110|[이모티콘](https://www.acmicpc.net/problem/14226)|BFS|Gold5|
-|220111|[큐](https://www.acmicpc.net/problem/10845)|Queue|Silver4|
-|220112|[숨바꼭질](https://www.acmicpc.net/problem/1697)|BFS|Silver1|
-|220113|[수들의 합 2](https://www.acmicpc.net/problem/2003)|-|-|
-|220114|[인구이동](https://www.acmicpc.net/problem/16234)|-|-|
-|220117|[새로운 게임](https://www.acmicpc.net/problem/17780)|-|-|
-|220118|[테트로미노](https://www.acmicpc.net/problem/14500)|-|-|
-|220119|[벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)|-|-|
-|220120|[새로운 게임 2](https://www.acmicpc.net/problem/17837)|-|-|
-|220121|[나무 제테크](https://www.acmicpc.net/problem/16253)|-|-|
-|220124|[탈옥](https://www.acmicpc.net/problem/1339)|-|-|
-|220125|[단어 수학](https://www.acmicpc.net/problem/4574)|-|-|
-|220126|[스도미노쿠](https://www.acmicpc.net/problem/4574)|-|-|
-|220127|[BFS 스페셜 저지](https://www.acmicpc.net/problem/16940)|-|-|
-|220128|[육각 보드](https://www.acmicpc.net/problem/12946)|-|-|
-|220131|[기타리스트](https://www.acmicpc.net/problem/1495)|-|-|
-|220203|[부분합](https://www.acmicpc.net/problem/1806)|-|-|
-|220204|[데스 나이트](https://www.acmicpc.net/problem/16948)|-|-|
-|220207|[적록색약](https://www.acmicpc.net/problem/10026)|-|-|
-|220208|[4연산](https://www.acmicpc.net/problem/14395)|-|-|
-|220209|[부분수열의 합](https://www.acmicpc.net/problem/1182)|-|-|
-|220210|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|-|-|
-|220211|[돌 그룹](https://www.acmicpc.net/problem/12886)|-|-|
+|20220110|[이모티콘](https://www.acmicpc.net/problem/14226)|BFS|Gold5|
+|20220111|[큐](https://www.acmicpc.net/problem/10845)|Queue|Silver4|
+|20220112|[숨바꼭질](https://www.acmicpc.net/problem/1697)|BFS|Silver1|
+|20220113|[수들의 합 2](https://www.acmicpc.net/problem/2003)|-|-|
+|20220114|[인구 이동](https://www.acmicpc.net/problem/16234)|-|-|
+|20220117|[새로운 게임](https://www.acmicpc.net/problem/17780)|-|-|
+|20220118|[테트로미노](https://www.acmicpc.net/problem/14500)|-|-|
+|20220119|[벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)|-|-|
+|20220120|[새로운 게임 2](https://www.acmicpc.net/problem/17837)|-|-|
+|20220121|[나무 재테크](https://www.acmicpc.net/problem/16235)|-|-|
+|20220124|[탈옥](https://www.acmicpc.net/problem/9376)|-|-|
+|20220125|[단어 수학](https://www.acmicpc.net/problem/1339)|-|-|
+|20220126|[스도미노쿠](https://www.acmicpc.net/problem/4574)|-|-|
+|20220127|[BFS 스페셜 저지](https://www.acmicpc.net/problem/16940)|-|-|
+|20220128|[육각 보드](https://www.acmicpc.net/problem/12946)|-|-|
+|20220131|[기타리스트](https://www.acmicpc.net/problem/1495)|-|-|
+|20220203|[부분합](https://www.acmicpc.net/problem/1806)|-|-|
+|20220204|[데스 나이트](https://www.acmicpc.net/problem/16948)|-|-|
+|20220207|[적록색약](https://www.acmicpc.net/problem/10026)|-|-|
+|20220208|[4연산](https://www.acmicpc.net/problem/14395)|-|-|
+|20220209|[부분수열의 합](https://www.acmicpc.net/problem/1182)|-|-|
+|20220210|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|-|-|
+|20220211|[돌 그룹](https://www.acmicpc.net/problem/12886)|-|-|
+|20220214|[이동하기](https://www.acmicpc.net/problem/11048)|-|-|
+|20220215|[LCS](https://www.acmicpc.net/problem/9251)|-|-|
+|20220216|[부분수열의 합](https://www.acmicpc.net/problem/14225)|-|-|
+|20220217|[2×2×2 큐브](https://www.acmicpc.net/problem/16939)|-|-|
+|20220218|[낚시왕](https://www.acmicpc.net/problem/17143)|-|-|
+|20220221|[벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)|-|-|
+|20220222|[크리보드](https://www.acmicpc.net/problem/11058)|-|-|
+|20220223|[소수의 연속합](https://www.acmicpc.net/problem/1644)|-|-|
+|20220224|[DFS 스페셜 저지](https://www.acmicpc.net/problem/16964)|-|-|
+|20220225|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|-|-|
+|20220228|[벽 부수고 이동하기 3](https://www.acmicpc.net/problem/16933)|-|-|
+|20220302|[괄호](https://www.acmicpc.net/problem/10422)|-|-|
+|20220303|[두 동전](https://www.acmicpc.net/problem/16197)|-|-|
+|20220304|[레이저 통신](https://www.acmicpc.net/problem/6087)|-|-|
+|20220307|[부등호](https://www.acmicpc.net/problem/2529)|-|-|
+|20220308|[아기 상어 2](https://www.acmicpc.net/problem/17086)|-|-|
+|20220309|[새로운 하노이 탑](https://www.acmicpc.net/problem/12906)|-|-|
+|20220310|[움직이는 미로 탈출](https://www.acmicpc.net/problem/16954)|-|-|
+|20220311|[공통 부분 문자열](https://www.acmicpc.net/problem/5582)|-|-|
+|20220314|[로또](https://www.acmicpc.net/problem/6603)|-|-|
+|20220315|[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|-|-|
+|20220316|[팰린드롬?](https://www.acmicpc.net/problem/10942)|-|-|
+|20220317|[청소년 상어](https://www.acmicpc.net/problem/19236)|-|-|
+|20220318|[점프 점프](https://www.acmicpc.net/problem/11060)|-|-|
+|20220321|[평범한 배낭](https://www.acmicpc.net/problem/12865)|-|-|
+|20220322|[동전 1](https://www.acmicpc.net/problem/2293)|-|-|
+|20220323|[뮤탈리스크](https://www.acmicpc.net/problem/12869)|-|-|
+|20220324|[벽 부수고 이동하기 4](https://www.acmicpc.net/problem/16946)|-|-|
+|20220325|[파일 합치기](https://www.acmicpc.net/problem/11066)|-|-|
+|20220328|[스도쿠](https://www.acmicpc.net/problem/2580)|-|-|
+|20220329|[이차원 배열과 연산](https://www.acmicpc.net/problem/17140)|-|-|
+|20220330|[스타트링크](https://www.acmicpc.net/problem/5014)|-|-|
+|20220331|[부분수열의 합 2](https://www.acmicpc.net/problem/1208)|-|-|
+|20220401|[Two Dots](https://www.acmicpc.net/problem/16929)|-|-|
+|20220404|[원판 돌리기](https://www.acmicpc.net/problem/17822)|-|-|
+|20220405|[연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)|-|-|
+|20220406|[2048 (Easy)](https://www.acmicpc.net/problem/12100)|-|-|
+|20220407|[부분수열의 합](https://www.acmicpc.net/problem/14225)|-|-|
+|20220408|[1학년](https://www.acmicpc.net/problem/5557)|-|-|
+|20220411|[서울 지하철 2호선](https://www.acmicpc.net/problem/16947)|-|-|
+|20220412|[구슬 탈출 2](https://www.acmicpc.net/problem/13460)|-|-|
+|20220413|[어른 상어](https://www.acmicpc.net/problem/19237)|-|-|
+|20220414|[성곽](https://www.acmicpc.net/problem/2234)|-|-|
+|20220415|[연구소 2](https://www.acmicpc.net/problem/17141)|-|-|
+|20220418|[동전 2](https://www.acmicpc.net/problem/2294)|-|-|
+|20220419|[N](https://www.acmicpc.net/problem/9663)|-|-|
+|20220420|[스타트와 링크](https://www.acmicpc.net/problem/14889)|-|-|
+|20220421|[가르침](https://www.acmicpc.net/problem/1062)|-|-|
+|20220422|[LCS 2](https://www.acmicpc.net/problem/9252)|-|-|
+|20220425|[레벨 햄버거](https://www.acmicpc.net/problem/16974)|-|-|
+|20220426|[로봇 청소기](https://www.acmicpc.net/problem/4991)|-|-|
+|20220427|[연구소 3](https://www.acmicpc.net/problem/17142)|-|-|
+|20220428|[말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)|-|-|
+|20220429|[아기 상어](https://www.acmicpc.net/problem/16236)|-|-|
+|20220502|[소수 경로](https://www.acmicpc.net/problem/1963)|-|-|
+|20220503|[모노미노도미노 2](https://www.acmicpc.net/problem/20061)|-|-|
+|20220504|[에너지 모으기](https://www.acmicpc.net/problem/16198)|-|-|
+|20220505|[뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)|-|-|
+|20220506|[두 배열의 합](https://www.acmicpc.net/problem/2143)|-|-|
+|20220509|[연구소](https://www.acmicpc.net/problem/14502)|-|-|
+|20220510|[1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)|-|-|
 
 
 ### 문제 List
