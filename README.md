@@ -32,7 +32,7 @@
 |---|---|-------|-|
 |220110|[이모티콘](https://www.acmicpc.net/problem/14226)|BFS|Gold5|
 |220111|[큐](https://www.acmicpc.net/problem/10845)|Queue|Silver4|
-|220113|[숨바꼭질](https://www.acmicpc.net/problem/1697)|BFS|Silver1|
+|220112|[숨바꼭질](https://www.acmicpc.net/problem/1697)|BFS|Silver1|
 
 ## 벌금
 + 오전 11시 59분 이후 제출시 시간당 500원 벌금
