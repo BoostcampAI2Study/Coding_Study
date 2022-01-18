@@ -1,12 +1,3 @@
-# 문제정의
-# 인구 이동이 지속 되는 날짜 Count
-# contries[i][j]와 인접한 contries[i+1][j], c를ontries[i][j+1] 비교했을 때 L 이상, R 이하일 때만 연합
-# 연합을 이룬 나라의 인구수는 (연합 전체 인구 수) / (연합 나라 수) 로 재조정
-# 문제 접근
-# 1. 연합된 나라의 위치, 개수를 어떻게 파악할 것인가
-# 2. 인구 수 비교를 어떤 기준으로 해야 가장 빠르게 할 수 있을까
-# 어제 오늘 이사하느라 많이 고민하지 못했습니당 ㅜㅜ 주말에 다시 풀어볼게용!
-
 import sys
 
 def Migration(N, L, R, contries) :
@@ -15,8 +6,8 @@ def Migration(N, L, R, contries) :
     while True:
         check = 0
         check_union = [[-1 for _ in range(N)] for _ in range(N)]
-        population = [0 for _ in range(N)]
-        union = [0 for _ in range(N)]
+        population = [0 for _ in range(N*N)]
+        union = [0 for _ in range(N*N)]
 
         for i in range(N):
             for j in range(N):
@@ -61,7 +52,7 @@ def Migration(N, L, R, contries) :
 
         if union == [0 for _ in range(N)]:
             return days
-        for n in range(N):
+        for n in range(N*N):
             if union[n] :
                 population[n] = population[n] / union[n]
             
