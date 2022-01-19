@@ -33,9 +33,10 @@ while queue:
             if 0<=nx<N and 0<=ny<M: # 밖으로 나가지 않은 경우만
                 if not visited[nx][ny]:
                     if board[nx][ny] == 1:
-                        if br > 0:
+                        # 벽인데
+                        if br > 0: #  뿌실수 있으면
                             queue.append([nx,ny,dp+1,br-1])
-                        else:
+                        else:   # 못뿌시면
                             continue
                     else:
                         queue.append([nx,ny,dp+1,br])
