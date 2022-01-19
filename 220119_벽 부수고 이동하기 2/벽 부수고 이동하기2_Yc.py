@@ -19,16 +19,18 @@ visited[0][0]=True
 answer=0
 
 while queue:
+    # 좌표, 깊이, 벽부수기 개수
     x,y,dp,br = queue.popleft()
-
+    
     if x == N-1 and y == M-1:
         answer = dp
         break
+    
     else:
         for mx, my in zip(move_x, move_y):
             nx, ny = x+mx, y+my
-
-            if 0<=nx<N and 0<=ny<M:
+            
+            if 0<=nx<N and 0<=ny<M: # 밖으로 나가지 않은 경우만
                 if not visited[nx][ny]:
                     if board[nx][ny] == 1:
                         if br > 0:
