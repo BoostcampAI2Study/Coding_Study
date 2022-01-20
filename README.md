@@ -42,10 +42,10 @@
 |20220110|[이모티콘](https://www.acmicpc.net/problem/14226)|BFS|Gold5|
 |20220111|[큐](https://www.acmicpc.net/problem/10845)|Queue|Silver4|
 |20220112|[숨바꼭질](https://www.acmicpc.net/problem/1697)|BFS|Silver1|
-|20220113|[수들의 합 2](https://www.acmicpc.net/problem/2003)|-|-|
-|20220114|[인구 이동](https://www.acmicpc.net/problem/16234)|-|Gold5|
-|20220117|[새로운 게임](https://www.acmicpc.net/problem/17780)|-|Gold2|
-|20220118|[테트로미노](https://www.acmicpc.net/problem/14500)|-|Gold5|
+|20220113|[수들의 합 2](https://www.acmicpc.net/problem/2003)|투 포인터|Silver3|
+|20220114|[인구 이동](https://www.acmicpc.net/problem/16234)|그래프|Gold5|
+|20220117|[새로운 게임](https://www.acmicpc.net/problem/17780)|구현|Gold2|
+|20220118|[테트로미노](https://www.acmicpc.net/problem/14500)|구현|Gold5|
 |20220119|[벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)|-|-|
 |20220120|[새로운 게임 2](https://www.acmicpc.net/problem/17837)|-|-|
 |20220121|[나무 재테크](https://www.acmicpc.net/problem/16235)|-|-|

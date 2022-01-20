@@ -19,7 +19,7 @@ for i in range(K):
 def finished(graph):
     for r in graph:
         for c in r:
-            if len(c) == K:
+            if len(c) >= 4:
                 return True
     return False
 
@@ -83,13 +83,6 @@ def main():
                     for n in graph[nr][nc]:
                         location[n] = (nr, nc)
 
-                # 또 이동 할 수 없는경우
-                # else:
-                #     if direction[num] % 2 == 0:
-                #         direction[num] -= 1
-                #     elif direction[num] % 2 == 1:
-                #         direction[num] += 1
-            
             # 흰색
             elif colormap[nr][nc] == 0:
                 graph[nr][nc].extend(graph[r][c]) # 쌓기
