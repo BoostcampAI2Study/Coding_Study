@@ -3,7 +3,7 @@ import sys, collections
 T = int(sys.stdin.readline())
 
 def bfs(start_y, start_x):
-    global H, W, MAP, opened_doors
+    global H, W, MAP
     min_opened_doors = [[-1] * (W+2) for _ in range(H+2)]
 
     Q = collections.deque()
