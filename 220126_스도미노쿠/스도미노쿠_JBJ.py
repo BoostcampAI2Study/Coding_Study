@@ -49,15 +49,17 @@ def dfs():
                 for next_num in range(1, 10): # (1 ~ 10): 1036ms, (num+1 ~ 10): 904ms
                     # domino availablility check
                     if num != next_num and not is_domino_used[num][next_num]:
-                        is_domino_used[num][next_num], is_domino_used[next_num][num] = True, True
-
+                        # domino fit check (sanity check)
                         if sanity_check(y, x, num) and sanity_check(next_y, next_x, next_num):
+                            is_domino_used[num][next_num], is_domino_used[next_num][num] = True, True
                             puzzle[y][x], puzzle[next_y][next_x] = num, next_num
+                            
                             dfs()
                             if flag: return
+                            
                             puzzle[y][x], puzzle[next_y][next_x] = 0, 0
+                            is_domino_used[num][next_num], is_domino_used[next_num][num] = False, False
 
-                        is_domino_used[num][next_num], is_domino_used[next_num][num] = False, False
 
 while N != 0:
     puzzle = [[0] * 10 for _ in range(10)]
