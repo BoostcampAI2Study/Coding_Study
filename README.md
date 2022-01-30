@@ -46,11 +46,11 @@
 |20220114|[인구 이동](https://www.acmicpc.net/problem/16234)|그래프|Gold5|
 |20220117|[새로운 게임](https://www.acmicpc.net/problem/17780)|구현|Gold2|
 |20220118|[테트로미노](https://www.acmicpc.net/problem/14500)|구현|Gold5|
-|20220119|[벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)|-|-|
-|20220120|[새로운 게임 2](https://www.acmicpc.net/problem/17837)|-|-|
-|20220121|[나무 재테크](https://www.acmicpc.net/problem/16235)|-|-|
-|20220124|[탈옥](https://www.acmicpc.net/problem/9376)|-|-|
-|20220125|[단어 수학](https://www.acmicpc.net/problem/1339)|-|-|
+|20220119|[벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)|BFS|Gold2|
+|20220120|[새로운 게임 2](https://www.acmicpc.net/problem/17837)|구현|Gold2|
+|20220121|[나무 재테크](https://www.acmicpc.net/problem/16235)|구현|Gold4|
+|20220124|[탈옥](https://www.acmicpc.net/problem/9376)|BFS|Platinum5|
+|20220125|[단어 수학](https://www.acmicpc.net/problem/1339)|브루트 포스|Gold4|
 |20220126|[스도미노쿠](https://www.acmicpc.net/problem/4574)|-|-|
 |20220127|[BFS 스페셜 저지](https://www.acmicpc.net/problem/16940)|-|-|
 |20220128|[육각 보드](https://www.acmicpc.net/problem/12946)|-|-|
