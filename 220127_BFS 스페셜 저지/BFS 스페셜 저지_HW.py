@@ -29,16 +29,11 @@ result = [1]
 while q:
     node = q.popleft()
     adjacency_nodes = tree_info[node]
-    child_nodes = []
-    # 방문하지 않은 자식 저장
+    # 방문하지 않은 자식 result 저장 + 큐에 넣기
     for adj_node in adjacency_nodes:
         if visit[adj_node] is False:
-            child_nodes.append(adj_node)
             result.append(adj_node)
-    # 방문하지 않은 자식 q에 넣기
-    for child_node in child_nodes[::-1]:
-        if visit[child_node] == False:
-            q.append(child_node)
-            visit[child_node] = True
+            q.append(adj_node)
+            visit[adj_node] = True
 
 print(1) if result == answer_order else print(0)
