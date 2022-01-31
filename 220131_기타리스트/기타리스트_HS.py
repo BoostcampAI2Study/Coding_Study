@@ -22,3 +22,8 @@ def dfs(m, i, cnt):
 
 dfs(M, 0, S)
 print(answer)
+
+# python3  
+# Memory 30864kb
+# time 76 ms
+# O(N*M) 예상
