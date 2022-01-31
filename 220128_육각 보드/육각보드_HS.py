@@ -1,39 +1,34 @@
 
-import sys
-# input = sys.stdin.readline
-
 N = int(input())
 board = [input() for _ in range(N)]
-# 인접 6개
-adj = [(0, -1), (-1, 0), (-1, 1), (0, 1), (1, 0), (1, -1)]
-# 색 채운 배열
-fill = [[-1]*N for _ in range(N)]
-# 색 리스트
-color = [1]
-# 예외 처리 변수
-exception = 0
+# 인접 6개 + 1개
+adj = [(0, -1), (-1, 0), (-1, 1), (0, 1), (1, 0), (1, -1), (0, -1)]
 
-for i in range(N):
-    for j in range(N):
-        if board[i][j] == 'X':
-            for c in color:
+def solution(N):
+    # 예외 처리 변수
+    exception = 0
+    answer = 1
+    for i in range(N):
+        for j in range(N):
+            if board[i][j] == 'X':
+                check3 = False
                 for my, mx in adj:
                     ny, nx = i+my, j+mx
-                    # 인접한 곳에 같은 색 있으면 break
-                    if 0<=ny<N and 0<=nx<N and fill[ny][nx] == c:
-                        break
-                # 인접한 곳에 같은 색 없으면 색칠
-                else:
-                    fill[i][j] = c
-                    break
-            # 현재 색 리스트 안에서 색칠 못하면 하나 늘리기
+                    # 인접한 곳에 같은 색
+                    if 0<=ny<N and 0<=nx<N and board[ny][nx] == 'X':
+                        # 인접한 곳에 2개 있다면 3 리턴
+                        if check3:
+                            return 3
+                        else:
+                            answer = 2
+                            check3 = True
+                    else:
+                        check3 = False
             else:
-                color.append(color[-1] + 1)
-                fill[i][j] = color[-1]
-        else:
-            exception += 1
+                exception += 1
+    # X가 하나도 없으면 0 리턴
+    if exception == N**2:
+        return 0        
+    return answer
 
-if exception == N**2:
-    print(0)
-else:
-    print(color[-1])
+print(solution(N))
