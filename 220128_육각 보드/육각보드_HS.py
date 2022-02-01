@@ -1,9 +1,4 @@
 
-N = int(input())
-board = [input() for _ in range(N)]
-# 인접 6개 + 1개
-adj = [(0, -1), (-1, 0), (-1, 1), (0, 1), (1, 0), (1, -1), (0, -1)]
-
 def solution(N):
     # 예외 처리 변수
     exception = 0
@@ -30,5 +25,10 @@ def solution(N):
     if exception == N**2:
         return 0        
     return answer
+    
+N = int(input())
+board = [input() for _ in range(N)]
+# 인접 6개 + 1개
+adj = [(0, -1), (-1, 0), (-1, 1), (0, 1), (1, 0), (1, -1), (0, -1)]
 
 print(solution(N))
