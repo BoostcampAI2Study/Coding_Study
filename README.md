@@ -71,7 +71,7 @@
 |20220222|[크리보드](https://www.acmicpc.net/problem/11058)|-|-|
 |20220223|[소수의 연속합](https://www.acmicpc.net/problem/1644)|-|-|
 |20220224|[DFS 스페셜 저지](https://www.acmicpc.net/problem/16964)|-|-|
-|20220225|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|-|-|
+|20220225|[1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)|-|-|
 |20220228|[벽 부수고 이동하기 3](https://www.acmicpc.net/problem/16933)|-|-|
 |20220302|[괄호](https://www.acmicpc.net/problem/10422)|-|-|
 |20220303|[두 동전](https://www.acmicpc.net/problem/16197)|-|-|
@@ -99,7 +99,7 @@
 |20220404|[원판 돌리기](https://www.acmicpc.net/problem/17822)|-|-|
 |20220405|[연산자 끼워넣기 (2)](https://www.acmicpc.net/problem/15658)|-|-|
 |20220406|[2048 (Easy)](https://www.acmicpc.net/problem/12100)|-|-|
-|20220407|[부분수열의 합](https://www.acmicpc.net/problem/14225)|-|-|
+|20220407|[연구소](https://www.acmicpc.net/problem/14502)|-|-|
 |20220408|[1학년](https://www.acmicpc.net/problem/5557)|-|-|
 |20220411|[서울 지하철 2호선](https://www.acmicpc.net/problem/16947)|-|-|
 |20220412|[구슬 탈출 2](https://www.acmicpc.net/problem/13460)|-|-|
@@ -121,8 +121,6 @@
 |20220504|[에너지 모으기](https://www.acmicpc.net/problem/16198)|-|-|
 |20220505|[뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)|-|-|
 |20220506|[두 배열의 합](https://www.acmicpc.net/problem/2143)|-|-|
-|20220509|[연구소](https://www.acmicpc.net/problem/14502)|-|-|
-|20220510|[1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)|-|-|
 
 
 ### 문제 List
