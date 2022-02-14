@@ -1,6 +1,3 @@
-from collections import deque
-import copy
-
 def _input():
     return list(map(int, input().split()))
 
@@ -11,14 +8,16 @@ new_maze[0][0] = maze[0][0]
 
 move = [(1, 0), (0, 1)]
 
-q = deque([(0, 0)])
-while q:
-    y, x = q.popleft()
-    for my, mx in move:
-        ny, nx = y + my, x + mx
-        if 0 <= ny < N and 0 <= nx < M:
-            if new_maze[ny][nx] < new_maze[y][x] + maze[ny][nx]:
-                new_maze[ny][nx] = new_maze[y][x] + maze[ny][nx]
-                q.append((ny, nx))
+for y in range(N):
+    for x in range(M):
+        for my, mx in move:
+            ny, nx = y + my, x + mx
+            if 0 <= ny < N and 0 <= nx < M:
+                new_maze[ny][nx] = max(new_maze[ny][nx], new_maze[y][x] + maze[ny][nx])
 
 print(new_maze[N-1][M-1])
+
+# Language : PyPy3
+# Memory : 143088 KB
+# Time : 316ms
+# Time Complexity : O(N*M)
