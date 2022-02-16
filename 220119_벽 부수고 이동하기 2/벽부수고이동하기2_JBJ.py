@@ -20,7 +20,7 @@ def bfs():
         for new_y, new_x in ((y, x+1), (y, x-1), (y+1, x), (y-1, x)):
             if 0 <= new_y < N and 0 <= new_x < M:
                 # wall exists and K count remains. → break wall
-                if MAP[new_y][new_x] and broken_walls < K and not min_distances[new_y][new_x][broken_walls]:
+                if MAP[new_y][new_x] and broken_walls < K and not min_distances[new_y][new_x][broken_walls+1]:
                     min_distances[new_y][new_x][broken_walls+1] = min_distances[y][x][broken_walls] + 1
                     Q.append((new_y, new_x, broken_walls+1))
                 # no wall
