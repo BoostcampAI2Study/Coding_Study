@@ -120,6 +120,7 @@
 |20220503|[모노미노도미노 2](https://www.acmicpc.net/problem/20061)|-|-|
 |20220504|[에너지 모으기](https://www.acmicpc.net/problem/16198)|-|-|
 |20220505|[뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)|-|-|
+|20220506|[두 배열의 합](https://www.acmicpc.net/problem/2143)|-|-|
 |20220509|[차량 번호판 1](https://www.acmicpc.net/problem/16968)|-|-|
 |20220510|[게리맨더링 2](https://www.acmicpc.net/problem/17779)|-|-|
 |20220511|[Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)|-|-|
