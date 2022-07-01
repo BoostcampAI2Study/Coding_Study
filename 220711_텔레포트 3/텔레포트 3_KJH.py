@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 xs, ys = map(int, input().split())
 xe, ye = map(int, input().split())
 graph = defaultdict(list)
@@ -11,7 +10,6 @@ for _ in range(3):
 visited = set()
 
 answer = float("inf")
-
 
 def dfs(x, y, cnt):
     global visited, answer
@@ -29,7 +27,6 @@ def dfs(x, y, cnt):
                     dfs(nx, ny, cnt + tmp + 10)
                     visited.discard((nx, ny))
             visited.discard((tx, ty))
-
 
 dfs(xs, ys, 0)
 print(answer)
